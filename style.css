@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%
+}
+
+aside {
+    width: 35%;
+    float: right;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.aside p {
+    font-size: 12px;
+}
+
+.related-video {
+    height: 110px;
+}
+
+.thumb img {
+    width: 180px;
+    float: left;
+    margin-right: 10px;
+
+}
+
+main {
+    float: left;
+    width: 60%;
+    margin-top: 50px;
+}
+
+.icon-text {
+    color: gray;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#player {
+    width: 100%;
+}
+#author {
+    margin-left: 60px;
+}
+#author h3 {
+    margin-bottom: 0;
+}
+
+#author p {
+    color: gray;
+    margin-top: 0;
+}
+
+#description {
+    margin-left: 60px;
+}
+.related-description p {
+    color: gray;
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.views {
+    color: gray;
+    font-size: 18px;
+}
+
+#comments-header h3 {
+    display: inline;
+}
+
+#comments-header .icon-text {
+    font-size: 14px;
+    margin-left: 40px;
+}
+
+#comments-body {
+    margin-left: 60px;
+}
